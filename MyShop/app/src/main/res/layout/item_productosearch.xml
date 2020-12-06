@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp">
+    ​
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            ​
+
+            <TextView
+                android:id="@+id/tvnombreproducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:text="Nombre del Producto" />
+
+            ​
+
+            <TextView
+                android:id="@+id/tvprecioproductosearch"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="right"
+                android:textSize="20dp"
+                tools:text="1000" />
+
+            <TextView
+                android:id="@+id/tvprecioeurosearch"
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:ems="10"
+                android:gravity="left"
+                android:text="€"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvnombretienda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:ems="15"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:textSize="18dp"
+            tools:text="La botica de la abuela" />
+
+        <TextView
+            android:id="@+id/tvciftienda2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:ems="23"
+            android:inputType="textEmailAddress"
+            android:textSize="12dp"
+            tools:text="gabcyunxygcnkx" />
+
+        <TextView
+            android:id="@+id/tvdescripcionproducto"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_margin="2dp"
+            android:ems="10"
+            android:textSize="12dp"
+            tools:text="Este producto es muy bueno, bonito, barato, tiene las tres B, cualquier persona en su santo juicio se compraría esta pocholada " />
+        ​
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

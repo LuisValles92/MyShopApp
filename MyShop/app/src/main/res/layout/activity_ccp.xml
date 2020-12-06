@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorNegro"
+    tools:context=".ClienteActivity.CCPActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar0"
+        style="@style/Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Buscador de tiendas"
+        app:titleTextColor="@color/colorBlanco" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerTiendas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        android:theme="@style/RecyclerTheme"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar0"
+        tools:listitem="@layout/item_tienda" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

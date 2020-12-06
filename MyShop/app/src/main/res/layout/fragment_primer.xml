@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlanco"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SliderTab.PrimerFragment">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/sliderempresa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="¿ES EMPRESARI@?\n¿TIENE UNA TIENDA?"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Dé a conocer su tienda a través de la aplicación,\nindique el código postal al que pertenece\n y publicite sus productos.\n\nEsta es una idea de MyShop\npara fomentar y defender el pequeño comercio." />
+</LinearLayout>
