@@ -1,5 +1,5 @@
 # MyShopApp
 
-Presentación con vídeo insertado:
-https://mega.nz/file/YQx2RRCb#1WVbwYXjVwJUQvB0vaQqbOkNKmIzhx_Yetxd4iHxSiA
+Presentación:
+https://luisvalles92.github.io/Contenedor/MyShopApp/Presentación%20MyShop.pdf
 
